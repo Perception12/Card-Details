@@ -1,38 +1,12 @@
+:root {
+  --clr-error: hsl(0, 100%, 66%);
+  --clr-gradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-greyish-violet: hsl(270, 3%, 87%);
+  --clr-dark-greyish-violet: hsl(279, 6%, 55%);
+  --clr-very-dark-violet: hsl(278, 68%, 11%);
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
